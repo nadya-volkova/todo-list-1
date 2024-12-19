@@ -1,0 +1,109 @@
+.todo-list {
+  list-style: none;
+  padding: 0;
+  color: #333;
+}
+
+.todo-item {
+  display: flex;
+  min-height: 3.5vw;
+  max-height: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw;
+  border: 1px solid #ccc;
+  color: #333;
+  margin-bottom: 1vw;
+  max-width: 80vw;
+}
+
+.todo-item input[type="checkbox"] {
+  cursor: pointer;
+  max-width: 2vw;
+}
+
+.todo-description {
+  font-size: 1.2vw;
+  width: 60vw;
+  color: #999;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.todo-item.checked {
+  background-color: #e9ecef;
+}
+
+.checkbox {
+  margin-right: 1vw;
+}
+
+.todo-text {
+  flex-grow: 1;
+  width: 60vw;
+  word-wrap: break-word;
+  white-space: normal;
+  text-align: justify;
+  font-size: 1.4vw;
+}
+
+.todo-info {
+  display: flex;
+  align-items: center;
+}
+
+.todo-date {
+  font-size: 1.4vw;
+  color: #6c757d;
+  margin-left: 0.5vw;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.edit-name {
+  border-radius: 5px;
+  font-size: 1.3vw;
+  width: 22vw;
+  height: 2.5vw;
+}
+
+.edit-description {
+  overflow: hidden;
+  resize: none;
+  width: 22vw;
+  margin-bottom: -1vw;
+  margin-left: 0.5vw;
+  height: 2.5vw;
+  border-radius: 5px;
+  font-size: 1.3vw;
+}
+
+.edit-description::-webkit-scrollbar {
+  display: none;
+}
+
+.delete-icon,
+.edit-icon {
+  width: 3vw;
+  height: 3vw;
+  margin-left: 0.5vw;
+}
+
+.delete-icon:hover,
+.edit-icon:hover {
+  transform: scale(1.1);
+}
+
+.save-icon,
+.cancel-icon {
+  width: 2.5vw;
+  height: 2.5vw;
+  cursor: pointer;
+  margin-bottom: -0.8vw;
+  margin-left: 0.3vw;
+}
+
+.save-icon:hover,
+.cancel-icon:hover {
+  opacity: 0.8;
+}
