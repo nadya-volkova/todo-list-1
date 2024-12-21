@@ -22,13 +22,13 @@ This application is a simple TODO list that allows users to create, manage, and 
 3. Use the checkbox to mark tasks as completed.
 4. Hover over a task to reveal an option to delete it.
 5. Use the filter to show only unfinished tasks if desired.
-![TODO List](https://github.com/user-attachments/assets/b67b5ec4-74bb-452f-b10f-d02bde6adec9){:width="600px"}
-## Technologies Used:
-React: For building the user interface.
-JavaScript: For application logic and state management.
-CSS: For styling the application, ensuring a visually appealing layout.
+<img src="https://github.com/user-attachments/assets/b67b5ec4-74bb-452f-b10f-d02bde6adec9" alt="TODO List" width="300"/>
+## Technologies Used
+- **React**: For building the user interface.
+- **JavaScript**: For application logic and state management.
+- **CSS**: For styling the application, ensuring a visually appealing layout.
 
-## Installation:
-Navigate to the project directory: cd todo
-Install dependencies: npm install
-Start the application: npm run dev
+## Installation
+1. Navigate to the project directory:
+   ```bash
+   cd todo
